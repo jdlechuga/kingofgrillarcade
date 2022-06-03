@@ -1,0 +1,36 @@
+{
+    "name": "KingOfGrillArcade",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "color-coded-tilemap": "*",
+        "character-animations": "github:riknoll/character-animations#ef7ec4877caf7caaafcf293576312987aa59d28d",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "logo.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.23",
+        "tag": "v1.8.23",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/9c2cb5aa7c70a9b9cbfa1b3520ca036d82ba8483",
+        "target": "1.8.26",
+        "pxt": "7.4.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
